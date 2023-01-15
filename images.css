@@ -14,10 +14,13 @@
 }
 
 #bike {
-    height: 400px;
+    height: 350px;
 }
 
 #TUD {
-    height: 300px;
-    padding: 0px;
+    height: 400px;
+}
+
+#BSOM {
+    width: 600px;
 }

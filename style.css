@@ -12,6 +12,14 @@ body, html,p {
     font-family:'Chivo Thin', sans-serif;
 }
 
+p {
+    font-size: 22px;
+}
+
+h1{
+    font-size: 45px;
+}
+
 h1, h2, h3 {
     font-family: 'Chivo Bold';
     text-align: center;
@@ -43,6 +51,10 @@ h1, h2, h3 {
     padding-left: 50px;
     padding-right: 50px;
     
+}
+
+#cv {
+    margin-right: 50px;
 }
 
 .navlink {
