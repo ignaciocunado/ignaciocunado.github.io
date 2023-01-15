@@ -1,0 +1,23 @@
+.socialicons {
+    padding: 5px;
+    height: 70px;
+    transition: transform 0.5s;
+}
+
+.socialicons:hover{
+    transform: scale(1.15);
+}
+
+#pictureofme{
+    height: 400px;
+    vertical-align: middle;
+}
+
+#bike {
+    height: 400px;
+}
+
+#TUD {
+    height: 300px;
+    padding: 0px;
+}
