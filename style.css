@@ -1,0 +1,117 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #292929, transparent) #696969;
+    height: 75px;
+    transition: background-color 1s;
+    justify-content: space-between;
+    margin: -10px;
+    align-self: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#menu:hover, #menu:focus {
+    background-color: black;
+}
+
+
+.menuinstance {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.navlink {
+    line-height: 75px;
+    color: white;
+}
+
+#name {
+    font-size:x-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration: bold;
+}
+
+nav{
+   /* position: fixed; */
+   top: 0px;
+}
+
+#pictureofme{
+    height: 400px;
+    vertical-align: middle;
+}
+
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.bigcard{
+    padding-top: 50px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    margin: auto;
+    width: 70%;
+}
+
+body, html {
+    font-family:sans-serif
+}
+
+#name{
+    
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.minilinkcard{
+    border-radius: 10px;
+    max-width:max-content;
+    max-height: max-content;
+    transition: transform 0.5s;
+}
+
+#pictureofme {
+    padding: 5px;
+}
+
+.socialicons {
+    padding: 5px;
+    height: 70px;
+    transition: transform 0.5s;
+}
+
+.minilinkcard:hover {
+    box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+    transform: scale(1.3)
+}
+
+.socialicons:hover{
+    transform: scale(1.2);
+
+}
