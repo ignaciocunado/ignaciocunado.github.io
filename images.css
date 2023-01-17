@@ -9,18 +9,21 @@
 }
 
 #pictureofme{
-    height: 400px;
-    vertical-align: middle;
+    min-height: 90px;
+    max-height: 350px;
 }
 
 #bike {
-    height: 350px;
+    min-height: 90px;
+    max-height: 350px;
 }
 
 #TUD {
-    height: 400px;
+    max-height: 400px;
+    min-height: 100px
 }
 
 #BSOM {
-    width: 600px;
+    max-width: 600px;
+    min-width: 100px;
 }

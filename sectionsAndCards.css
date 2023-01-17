@@ -1,7 +1,8 @@
 .section, .section2{
-    padding: 30px;  
+    padding: 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     margin: auto;
     width: 85%;
 }
@@ -17,8 +18,9 @@
 .card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 10 px;
+    border-radius: 10px;
     padding: 18px;
+    margin: auto;
 }
 
 .card:hover{
@@ -27,7 +29,7 @@
 
 
 .minilinkcard{
-    border-radius: 10px;
+    border-radius: 15px;
     max-width:max-content;
     max-height: max-content;
     transition: transform 0.5s;
@@ -42,9 +44,3 @@
 .pictureInCard {
     padding: 5px;
 }
-
-#school, #uni, #name, #triathlon {
-    height: min-content;
-    margin: auto;
-}
-

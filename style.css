@@ -1,3 +1,5 @@
+/*https://colorhunt.co/palette/222831393e46ffd369eeeeee*/
+
 @font-face {
     font-family: 'Chivo Thin';
     src: url(fonts/chivo_font/static/Chivo-Thin.ttf);
@@ -8,30 +10,30 @@
     src: url(fonts/chivo_font/static/Chivo-Bold.ttf);
 }
 
-body, html,p {
+body, html {
     font-family:'Chivo Thin', sans-serif;
     scroll-behavior: smooth;
+    /*background-color: #EEEEEE;*/
+    font-size: 100%;
 }
 
 p {
-    font-size: 22px;
-}
-
-h1{
-    font-size: 45px;
+    font-family: 'Chivo Thin', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Chivo Bold';
+    font-family: 'Chivo Bold', sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
 #menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background: linear-gradient(90deg, #292929, transparent) #696969;
-    height: 75px;
+    flex-wrap:wrap;
+    background: linear-gradient(90deg, #222831,transparent) #b0b0b0;
+    /* background: linear-gradient(90deg, #292929, transparent) #696969; */
+    min-height: 8%;
     transition: background-color 1s;
     justify-content: space-between;
     margin: -10px;
@@ -39,23 +41,25 @@ h1, h2, h3 {
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    min-width: 100%;
     font-family: 'Chivo Bold';
 }
 
 #menu:hover, #menu:focus {
-    background-color: black;
+    /* background-color: black; */
+    background-color: #393E46;
 }
 
 
 .menuinstance {
-    padding-left: 50px;
-    padding-right: 50px;
-    
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #cv {
-    margin-right: 50px;
+    margin-right: 3%;
 }
 
 .navlink {
@@ -63,10 +67,6 @@ h1, h2, h3 {
     color: white;
 }
 
-#name {
-    font-size:x-large;
-    font-family: 'Chivo Bold', sans-serif;  
-}
 
 a {
     text-decoration: none;
