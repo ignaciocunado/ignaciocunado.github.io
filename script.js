@@ -1,7 +1,3 @@
-// Test 1:
-
-window.onload = changeadjectives();
-
 function changeadjectives() {
     const arr = ["Leader, Team-Worker and Methodical","Curious, Resilient and Enthusiastic"];
     var counter = 0;
@@ -13,4 +9,15 @@ function changeadjectives() {
         counter = 0;
       }
     }
+}
+
+changeadjectives();
+
+const button = document.getElementById('nextPhoto')
+const sportImage = document.getElementById('bike')
+const srcArr = ['images/acoruna.JPG', 'images/bikeacoruna.jpg', 'images/ignaciobike.JPG']
+const imageCounter = 0;
+function nextImage() {
+  sportImage.src = srcArr[imageCounter]
+  imageCounter = imageCounter + 1 % srcArr.length
 }
