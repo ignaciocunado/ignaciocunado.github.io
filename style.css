@@ -50,7 +50,7 @@ h1, h2, h3 {
     font-family: 'Chivo Bold';
 }
 
-#menu:hover, #menu:focus, footer:hover, footer:focus {
+#menu:hover, #menu:focus, footer:hover, footer:focus, button:hover {
     /* background-color: black; */
     background-color: #393E46;
 }
@@ -98,3 +98,15 @@ footer {
     color: white;
     transition: background-color 0.7s;
 }
+
+ button {
+    background: #b0b0b0;
+    border: solid white;
+    border-radius: 5px;
+    color: white;
+    min-width: 20%;
+    min-height: 5%;
+    transition: background-color 0.7s;
+    font-size: larger;
+ }
+

@@ -16,8 +16,12 @@ changeadjectives();
 const button = document.getElementById('nextPhoto')
 const sportImage = document.getElementById('bike')
 const srcArr = ['images/acoruna.JPG', 'images/bikeacoruna.jpg', 'images/ignaciobike.JPG']
-const imageCounter = 0;
+let imageCounter = 0;
 function nextImage() {
+  console.log(imageCounter)
   sportImage.src = srcArr[imageCounter]
-  imageCounter = imageCounter + 1 % srcArr.length
+  imageCounter++;
+  if(imageCounter >= srcArr.length) {
+    imageCounter = 0
+  }
 }
