@@ -44,3 +44,14 @@
 .pictureInCard {
     padding: 5px;
 }
+
+#buttonandimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#buttondiv {
+    padding-top: 10px;
+    margin: 0px;
+}
