@@ -44,14 +44,14 @@ h1, h2, h3 {
 #menu {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     background: linear-gradient(90deg, #222831,transparent) #cacaca;
     /* background: linear-gradient(90deg, #292929, transparent) #696969; */
-    min-height: 8%;
+    min-height: 9%;
     transition: background-color 0.7s;
     justify-content: space-between;
     align-self: center;
-    overflow: hidden;
+    overflow:hidden;
     position: fixed;
     top: 0;
     min-width: 100%;
@@ -67,17 +67,23 @@ h1, h2, h3 {
 .menuinstance {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 3%;
-    padding-right: 3%;
+    /* padding-left: 3%;
+    padding-right: 3%; */
 }
 
 #cv {
     margin-right: 3%;
 }
 
+#name {
+    padding-left: 2%
+}
+
 .navlink {
-    line-height: 75px;
+    /* line-height: 75px; */
     color: white;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .navlink:hover {
