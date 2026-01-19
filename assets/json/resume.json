@@ -111,10 +111,7 @@
       "studyType": "Minor",
       "startDate": "2024-09-01",
       "endDate": "2025-02-01",
-      "courses": [
-        "Numerical Analysis for Machine Learning",
-        "Systems and Methods for Big and Unstructured Data Operations Research"
-      ],
+      "courses": ["Numerical Analysis for Machine Learning", "Systems and Methods for Big and Unstructured Data Operations Research"],
       "location": "Milan, Italy"
     },
     {
@@ -156,7 +153,17 @@
     {
       "name": "Machine Learning & Data Science",
       "level": "Advanced",
-      "keywords": ["PyTorch", "TensorFlow", "NumPy", "Pandas", "Scikit-learn", "Graph Neural Networks", "Deep Learning", "Tabular Transformers", "Relational Deep Learning"]
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Graph Neural Networks",
+        "Deep Learning",
+        "Tabular Transformers",
+        "Relational Deep Learning"
+      ]
     },
     {
       "name": "Big Data & Distributed Systems",
