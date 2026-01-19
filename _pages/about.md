@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tudelft.nl/'>Delft University of Technology</a>. Applied Mathematics & Machine Learning. Netherlands + Spain.
+subtitle: <a href='https://www.tudelft.nl/'>Delft University of Technology</a>. Applied Mathematics & Machine Learning.
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>+34 690877125</p>
-    <p>Delft, Netherlands</p>
+    <p>Netherlands / Spain</p>
     <p><a href="mailto:contact@ignaciocunado.com">contact@ignaciocunado.com</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
