@@ -35,8 +35,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-tba",
-          title: 'TBA!',
+            },},{id: "news-i-accepted-an-offer-to-join-booking-com-as-a-software-engineer-intern-for-the-2026-summer",
+          title: 'I accepted an offer to join Booking.com as a Software Engineer Intern for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
