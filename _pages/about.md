@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>+34 690877125</p>
     <p>Netherlands / Spain</p>
     <p><a href="mailto:contact@ignaciocunado.com">contact@ignaciocunado.com</a></p>
 

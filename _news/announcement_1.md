@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I accepted an offer to join Booking.com as a Software Engineer Intern for the 2026 summer!
+I accepted an offer to join Booking.com as a Software Engineer Intern for summer 2026!
