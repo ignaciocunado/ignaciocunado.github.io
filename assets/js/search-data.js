@@ -30,20 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-accepted-an-offer-to-join-booking-com-as-a-software-engineer-intern-for-summer-2026",
+        },{id: "news-i-accepted-an-offer-to-join-booking-com-as-a-software-engineer-intern-for-summer-2026",
           title: 'I accepted an offer to join Booking.com as a Software Engineer Intern for...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
