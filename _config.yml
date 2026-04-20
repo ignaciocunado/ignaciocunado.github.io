@@ -156,7 +156,7 @@ collections:
       layout: post
     output: true
   projects:
-    output: true
+    output: false # TODO: update?
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
