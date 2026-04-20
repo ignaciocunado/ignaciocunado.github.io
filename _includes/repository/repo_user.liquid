@@ -20,15 +20,7 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.username }}"
-      src="assets/img/stats_light.svg"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.username }}"
-      src="assets/img/stats_dark.svg"
-    >
+  {% include figure.liquid loading="eager" path='assets/img/stats_light.svg' class='only-light w100' %}
+  {% include figure.liquid loading="eager" path='assets/img/stats_dark.svg' class='only-dark w100' %}
   </a>
 </div>

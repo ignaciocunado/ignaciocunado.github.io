@@ -1,42 +1,18 @@
 <div class="repo p-2 text-center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <span class="d-none d-sm-none d-md-block">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_light_lg.svg"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_dark_lg.svg"
-      >
+      {% include figure.liquid loading="eager" path='assets/img/trophy_light_lg.svg' class='only-light' %}
+      {% include figure.liquid loading="eager" path='assets/img/trophy_dark_lg.svg' class='only-dark' %}
     </span>
 
     <span class="d-none d-sm-block d-md-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_light_md.svg"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_dark_md.svg"
-      >
+      {% include figure.liquid loading="eager" path='assets/img/trophy_light_md.svg' class='only-light' %}
+      {% include figure.liquid loading="eager" path='assets/img/trophy_dark_md.svg' class='only-dark' %}
     </span>
 
     <span class="d-block d-sm-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_light_sm.svg"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="assets/img/trophy_dark_sm.svg"
-      >
+      {% include figure.liquid loading="eager" path='assets/img/trophy_light_sm.svg' class='only-light' %}
+      {% include figure.liquid loading="eager" path='assets/img/trophy_dark_sm.svg' class='only-dark' %}
     </span>
   </a>
 </div>
