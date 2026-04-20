@@ -15,6 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generate stats card dark
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: assets/img/stats_dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card light
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: assets/img/stats_light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate large trophy card dark
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
