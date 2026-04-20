@@ -34,14 +34,14 @@ jobs:
       - name: Generate large trophy card dark
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: "username=${{ github.repository_owner }}&theme=dark&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=10"
+          options: "username=${{ github.repository_owner }}&theme=dark&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=7"
           path: assets/img/trophy_dark_lg.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate large trophy card light
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: "username=${{ github.repository_owner }}&theme=light&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=10"
+          options: "username=${{ github.repository_owner }}&theme=light&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=7"
           path: assets/img/trophy_light_lg.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
