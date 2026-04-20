@@ -1,0 +1,66 @@
+name: Update GitHub trophies
+
+on:
+  schedule:
+    - cron: "0 0 1 * *" # Runs once a month at midnight (1st day)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate large trophy card dark
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=dark&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6'
+          path: assets/img/trophy_dark_lg.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate large trophy card light
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=light&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6'
+          path: assets/img/trophy_light_lg.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate medium trophy card dark
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=dark&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4'
+          path: assets/img/trophy_dark_md.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate medium trophy card light
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=light&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4'
+          path: assets/img/trophy_light_md.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate small trophy card dark
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=dark&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3'
+          path: assets/img/trophy_dark_sm.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate small trophy card light
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=${{ github.repository_owner }}&theme=light&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3'
+          path: assets/img/trophy_light_sm.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit trophy card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/*
+          git commit -m "Update README trophy" || exit 0
+          git push
