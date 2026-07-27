@@ -27,10 +27,21 @@
   },
   "work": [
     {
+      "name": "Booking.com",
+      "position": "Software Engineer Intern",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-31",
+      "summary": "AI Agents for unified production bug reporting.",
+      "highlights": [
+        
+      ],
+      "location": "Amsterdam, Netherlands"
+    },
+    {
       "name": "Delft University of Technology",
       "position": "Research Assistant",
       "startDate": "2025-09-01",
-      "endDate": "present",
+      "endDate": "2026-06-30",
       "summary": "Conducting research on Relational Deep Learning and graph neural networks.",
       "highlights": [
         "Researching Relational Deep Learning by benchmarking Tabular Transformers against state-of-the-art graph learning models (RDL, RelGT, ft-PNA, ft-FraudGT)",
@@ -43,7 +54,7 @@
       "name": "Paro Software",
       "position": "Part-time Software Engineer",
       "startDate": "2024-02-01",
-      "endDate": "present",
+      "endDate": "2026-02-28",
       "summary": "Developing features for subscription-based payment processing and document management tools.",
       "highlights": [
         "Migrated payment providers for subscription-based tools handling over $10k weekly volume",
