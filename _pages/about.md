@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tudelft.nl/'>Delft University of Technology</a>. Applied Mathematics & Machine Learning.
+subtitle: <a href='https://www.ucl.ac.uk/'>UCL</a>. Applied Mathematics & Machine Learning.
 
 profile:
   align: right

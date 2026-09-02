@@ -30,7 +30,7 @@
       "name": "Booking.com",
       "position": "Software Engineer Intern",
       "startDate": "2026-07-01",
-      "endDate": "2026-09-31",
+      "endDate": "2026-08-31",
       "summary": "AI Agents for unified production bug reporting.",
       "highlights": [],
       "location": "Amsterdam, Netherlands"
@@ -93,6 +93,14 @@
   ],
   "volunteer": [],
   "education": [
+    {
+      "institution": "UCL (University College London)",
+      "area": "Machine Learning",
+      "studyType": "Master of Science",
+      "startDate": "2026-09-01",
+      "endDate": "2027-09-01",
+      "location": "London, United Kingdom"
+    },
     {
       "institution": "Delft University of Technology",
       "area": "Computer Science and Engineering",
