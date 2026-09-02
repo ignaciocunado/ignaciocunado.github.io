@@ -26,8 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Research Assistant at Delft University of Technology, currently pursuing a Bridging Program in Applied Mathematics. My research interests lie at the intersection of **deep learning and probabilistic modelling**, with a particular focus on graph machine learning, tabular transformers and bayesian statistics.
-
-I recently completed my BSc in Computer Science and Engineering at Delft University of Technology (Cum Laude), with a minor in Mathematics and Statistics from Politecnico di Milano.
+I'm a Research Assistant at Delft University of Technology, recently graduated from a BSc in Computer Science and Mathematics. My research interests lie at the intersection of **deep learning and probabilistic modelling**, with a particular focus on graph machine learning, tabular transformers and bayesian statistics.
 
 I'm passionate about leveraging machine learning to solve real-world problems. I have hands-on experience in **Python, Java, C++, and SQL**, with expertise in modern ML frameworks and tools. Feel free to connect with me on [LinkedIn](https://linkedin.com/in/ignaciocunado/) or check out my projects on [GitHub](https://github.com/ignaciocunado).

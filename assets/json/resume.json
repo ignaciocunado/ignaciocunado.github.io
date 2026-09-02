@@ -32,7 +32,11 @@
       "startDate": "2026-07-01",
       "endDate": "2026-08-31",
       "summary": "AI Agents for unified production bug reporting.",
-      "highlights": [],
+      "highlights": [
+        "Built a company-wide bug-reporting platform, unifying a previously fragmented process into a single system.",
+        "Designed and integrated 4 ML models to auto-triage, quality-check, and route bugs to the correct team.",
+        "Cut average bug resolution time from 7 to 3 days by improving first-try routing accuracy."
+      ],
       "location": "Amsterdam, Netherlands"
     },
     {
